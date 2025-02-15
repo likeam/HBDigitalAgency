@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { BiPhoneCall, BiSolidMoon, BiSolidSun } from "react-icons/bi";
 import { FaCaretDown, FaUserCircle } from "react-icons/fa";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
-import ResponsiveMenu from "./ResponsiveMenu";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -27,8 +26,8 @@ const Navbar = () => {
 
   return (
     <>
-      <header className=" relative px-4 z-99 bg-transparent border-b-[1px] border-gray-500 w-full">
-        <nav className=" container flex items-center justify-between  h-[70px] py-2 ">
+      <header className=" relative px-4 z-99 bg-transparent flex justify-center  text-center border-b-[1px] border-gray-500 w-full">
+        <nav className=" container flex items-center justify-between  h-[70px] py-2  px-2">
           {/* LOGO  */}
           <div className=" text-2xl md:text-3xl dark:text-gray-200">
             <a href="#" className="">
@@ -41,100 +40,30 @@ const Navbar = () => {
           {/* Desktop Menu Section  */}
           <div className=" hidden md:block dark:text-gray-200">
             <ul className=" flex items-center gap-4">
-              <li className=" group relative cursor-pointer">
-                <Link
-                  to={"/"}
-                  className=" flex items-center gap-[2px] h-[72px]"
-                >
-                  Home{" "}
-                  <span className="">
-                    <FaCaretDown className=" transition-all duration-200 group-hover:rotate-180 " />
-                  </span>
-                </Link>
-                {/* Dropdwon Section  */}
-                <div className=" absolute -left-9 z-[99999] hidden w-[150px] group-hover:block">
-                  <ul className="bg-primary p-4 rounded-b-lg space-y-3">
-                    <li className="">Services</li>
-                    <li className="">About Us</li>
-                    <li className="">Privacy Policy</li>
-                  </ul>
-                </div>
+              <li>
+                <Link to={"/"}>Home </Link>
               </li>
-              <li className=" group  cursor-pointer">
-                <Link
-                  to={"/services"}
-                  className=" flex items-center gap-[2px] h-[72px]"
-                >
-                  Services{" "}
-                  <span className="">
-                    <FaCaretDown className=" transition-all duration-200 group-hover:rotate-180" />
-                  </span>
-                </Link>
-                {/* Full Size Dropdwon Section  */}
-                <div className=" absolute p-2 left-0 z-[99999]  hidden w-full group-hover:block rounded-b-3xl shadow-md">
-                  <div className=" grid grid-cols-3 gap-5">
-                    <div className=" overflow-hidden">
-                      <img
-                        src="https://picsum.photos/200"
-                        alt="not found"
-                        className=" max-h-[300px] w-full rounded-b-3xl object-fill"
-                      />
-                    </div>
-                    <div className=" col-span-2">
-                      <h1 className="">Best Selling</h1>
-                      <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Nostrum vel eos ipsum hic quo doloremque quae
-                        earum officia voluptatum aliquam eum saepe dicta enim,
-                        molestias provident deleniti, culpa dolor recusandae.
-                        <div className=" grid grid-cols-3">
-                          <div className="">
-                            <h1 className=" pb-1 text-xl font-semibold">
-                              Development
-                            </h1>
-                            <ul className=" space-y-2">
-                              <li className=" cursor-pointer hover:text-gray-700">
-                                Web Development
-                              </li>
-                              <li className=" cursor-pointer hover:text-gray-700">
-                                Mobile Development
-                              </li>
-                              <li className=" cursor-pointer hover:text-gray-700">
-                                Software Development
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="">
-                            <h1 className=" pb-1 text-xl font-semibold">
-                              Development
-                            </h1>
-                            <ul className=" space-y-2">
-                              <li className=" cursor-pointer hover:text-gray-700">
-                                Web Development
-                              </li>
-                              <li className=" cursor-pointer hover:text-gray-700">
-                                Mobile Development
-                              </li>
-                              <li className=" cursor-pointer hover:text-gray-700">
-                                Software Development
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="">
-                            <img
-                              src="https://picsum.photos/160"
-                              alt="not found"
-                              className=" max-h-[300px] w-full rounded-b-3xl object-fill"
-                            />
-                          </div>
-                        </div>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+              <li>
+                <Link to={"/aboutus"}>About Us</Link>
+              </li>
+
+              <li>
+                <Link to={"/services"}>Services </Link>
+              </li>
+              <li>
+                <Link to={"/portfolio"}>Portfolio</Link>
               </li>
               <li className="">
-                <Link to={"/aboutus"}>Contact Us</Link>
+                <Link to={"/contactus"}>Contact Us</Link>
+              </li>
+              <li className="">
+                <Link to={"/faq"}>FAQ</Link>
+              </li>
+              <li className="">
+                <Link to={"/testimonials"}>Testimonials</Link>
+              </li>
+              <li className="">
+                <Link to={"/careers"}>Careers</Link>
               </li>
               <li className="">
                 <div className="flex items-center gap-4">
@@ -222,6 +151,24 @@ const Navbar = () => {
               </li>
               <li className="">
                 <Link to={"/aboutus"}>About U</Link>
+              </li>
+              <li>
+                <Link to={"/services"}>Services </Link>
+              </li>
+              <li>
+                <Link to={"/portfolio"}>Portfolio</Link>
+              </li>
+              <li className="">
+                <Link to={"/contactus"}>Contact Us</Link>
+              </li>
+              <li className="">
+                <Link to={"/faq"}>FAQ</Link>
+              </li>
+              <li className="">
+                <Link to={"/testimonials"}>Testimonials</Link>
+              </li>
+              <li className="">
+                <Link to={"/careers"}>Careers</Link>
               </li>
             </ul>
           </nav>

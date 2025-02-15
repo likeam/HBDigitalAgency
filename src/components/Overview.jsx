@@ -3,12 +3,15 @@ import CountUp from "react-countup";
 
 const Overview = () => {
   return (
-    <section className=" container h-12 md:h-32 px-12">
+    <section className=" flex justify-center     w-full text-center md:w-full    bg-white h-12 md:h-32 p-3 dark:bg-gray-900">
       <div
-        className=" grid grid-cols-4 mx-auto divide-x divide-slate-700  
-      w-full md:max-w-[800px] shadow-lg bg-white -translate-y-10 my-4 md:p-8 md:-translate-y-16 dark:bg-gray-800 dark:text-white/70"
+        className="  bg-white  grid grid-cols-4 mx-auto divide-x
+         divide-slate-700  
+      w-full md:max-w-[800px] shadow-lg 
+      -translate-y-12 my-4 md:p-8 md:-translate-y-20 
+      dark:bg-gray-800 dark:text-white/70"
       >
-        <div className=" flex flex-col items-center justify-center">
+        <div className=" flex flex-col items-center justify-center  bg-white  dark:bg-gray-800">
           <h1
             className=" text-sm font-bold text-black/80 dark:text-white sm:text-lg
           md:text-3xl"
@@ -18,7 +21,7 @@ const Overview = () => {
           </h1>
           <p>clients</p>
         </div>
-        <div className=" flex flex-col items-center justify-center">
+        <div className=" flex flex-col items-center justify-center  bg-white  dark:bg-gray-800">
           <h1
             className=" text-sm font-bold text-black/80 dark:text-white sm:text-lg
           md:text-3xl"
@@ -28,7 +31,7 @@ const Overview = () => {
           </h1>
           <p>clients</p>
         </div>
-        <div className=" flex flex-col items-center justify-center">
+        <div className=" flex flex-col items-center justify-center  bg-white  dark:bg-gray-800">
           <h1
             className=" text-sm font-bold text-black/80 dark:text-white sm:text-lg
           md:text-3xl"
@@ -38,7 +41,7 @@ const Overview = () => {
           </h1>
           <p>clients</p>
         </div>
-        <div className=" flex flex-col items-center justify-center">
+        <div className=" flex flex-col items-center justify-center  bg-white  dark:bg-gray-800">
           <h1
             className=" text-sm font-bold text-black/80 dark:text-white sm:text-lg
           md:text-3xl"
