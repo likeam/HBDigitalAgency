@@ -20,6 +20,25 @@ const BannerDetails = () => {
               quas vel optio at inventore tempore deserunt dignissimos adipisci
               hic?
             </p>
+            <div className="">
+              <ul className="">
+                <li className=" font-medium">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Veritatis amet numquam vel qui vitae id quis reiciendis labore
+                  molestiae facilis?
+                </li>
+                <li className=" font-medium">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Veritatis amet numquam vel qui vitae id quis reiciendis labore
+                  molestiae facilis?
+                </li>
+                <li className=" font-medium">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Veritatis amet numquam vel qui vitae id quis reiciendis labore
+                  molestiae facilis?
+                </li>
+              </ul>
+            </div>
           </div>
           {/* Image Container  */}
           <div className=""></div>
