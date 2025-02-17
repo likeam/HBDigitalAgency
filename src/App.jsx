@@ -15,6 +15,7 @@ import Services from "./pages/Services";
 import Blogs from "./components/Blogs";
 import Testimonials from "./pages/Testimonials";
 import Privacy from "./pages/Privacy";
+import Message from "./components/Message";
 
 const App = () => {
   useEffect(() => {
@@ -43,6 +44,7 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="/message" element={<Message />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -22,6 +22,9 @@ const Home = () => {
         L1={"Get a Free Consultation"}
         L2={"View Our Portfolio"}
         L3={"Contact Us Today"}
+        L4={"Experienced and Skilled Team"}
+        L5={"Agile Development Methodology"}
+        L6={"On-Time Delivery"}
       />
       <BannerDetails
         Image={Blog2}
