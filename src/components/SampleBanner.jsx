@@ -3,7 +3,7 @@ import React from "react";
 const SampleBanner = () => {
   return (
     <>
-      <div className=" bg-sky-400 dark:bg-gradient-to-r from-blue-800 to-indigo-900">
+      <div className=" bg-gray-400 dark:bg-gray-800 to-indigo-900">
         <div
           data-aos="fade-up"
           className=" flex  justify-center  text-center container p-4 py-8 md:py12 md:p-12"

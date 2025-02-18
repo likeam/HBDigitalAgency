@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="rounded-t-3xl  bg-sky-400 dark:bg-gradient-to-r from-blue-800 to-indigo-900">
+    <div className="rounded-t-3xl  bg-gray-400 dark:bg-gray-800">
       <section className="mx-auto max-w-[1200px] dark:text-white text-gray-900">
         <div className=" grid py-5 md:grid-cols-3">
           <div className=" px-4 py-8 ">
@@ -27,7 +27,7 @@ const Footer = () => {
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Abdil Rehman, Gujranwala Pakistan</p>
+              <p>Abdul Rehman, Gujranwala Pakistan</p>
             </div>
             <div className="mt-3 flex items-center gap-3">
               <FaMobileAlt />

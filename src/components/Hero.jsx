@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className=" flex justify-center bg-sky-400  text-center h-[650px] bg- md:h-[500px]  gap-8   pt-20 dark:bg-gradient-to-r from-blue-800 to-indigo-900">
+    <div className=" flex justify-center  bg-gray-400  text-center h-[650px] bg- md:h-[500px]  gap-8   pt-20 dark:bg-gray-800">
       <section className=" container flex flex-col justify-between ">
         <div className=" grid grid-cols-1 md:grid-cols-2 px-8 items-center justify-center dark:text-white">
           {/* hero Text containert  */}
