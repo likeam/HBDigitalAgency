@@ -1,7 +1,10 @@
 import React from "react";
+import Message from "../components/Message";
 
 const ContactUs = () => {
-  return <div>ContactUs</div>;
+  return <>
+    <Message />
+  </>;
 };
 
 export default ContactUs;

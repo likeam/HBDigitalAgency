@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SampleBanner = () => {
   return (
@@ -33,7 +34,7 @@ const SampleBanner = () => {
                 laborum totam, veniam commodi sapiente perferendis impedit quam!
                 Est veritatis tempore nemo accusamus numquam tempora.
               </p>
-              <button className="btn-primary">Get Started</button>
+              <Link to={"/message"} className="btn-primary">Get Started</Link>
             </div>
           </div>
         </div>

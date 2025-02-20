@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BannerDetails = ({
   reverse,
@@ -40,7 +41,7 @@ const BannerDetails = ({
                 <li className=" font-medium">{L6}</li>
               </ul>
             </div>
-            <div className="btn-primary">Get Started</div>
+            <Link to={"/message"}  className="btn-primary">Get Started</Link>
           </div>
           {/* Image Container  */}
           <div

@@ -23,7 +23,7 @@ const Message = () => {
 
   return (
     <>
-      <div class=" flex justify-center items-center bg-gray-400  p-12 dark:bg-gradient-to-r from-blue-800 to-indigo-900 ">
+      <div class=" flex justify-center items-center bg-gray-400  p-12 dark:bg-gray-800 ">
         <form
           ref={form}
           onSubmit={sendEmail}
