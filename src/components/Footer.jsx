@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="rounded-t-3xl  bg-gray-400 dark:bg-gray-800">
+    <div className="rounded-t-3xl  bg-transparent ">
       <section className="mx-auto max-w-[1200px] dark:text-white text-gray-900">
         <div className=" grid py-5 md:grid-cols-3">
           <div className=" px-4 py-8 ">
