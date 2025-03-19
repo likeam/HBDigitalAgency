@@ -6,11 +6,8 @@ import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import AboutUs from "./pages/AboutUs";
-
 import ContactUs from "./pages/ContactUs";
-
 import Services from "./pages/Services";
-
 import Message from "./components/Message";
 
 const App = () => {

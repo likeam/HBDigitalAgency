@@ -1,8 +1,11 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
 
 const Message = () => {
   const form = useRef();
+
+  const notify = () => toast("Email Send Sucessfully");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -23,6 +26,7 @@ const Message = () => {
 
   return (
     <div className="container w-[90vw] sm:w-[30vw]  h-[60vh] bg-gray-500 flex justify-center items-center flex-col gap-4 rounded-md  ">
+      <ToastContainer />
       <div className=" font-bold text-2xl text-slate-700"> Send Message </div>
       <form ref={form} onSubmit={sendEmail}>
         <label className="block mt-4">
@@ -61,6 +65,7 @@ const Message = () => {
           type="submit"
           value="Send"
           className="btn-primary mt-4 flex cursor-pointer hover:bg-indigo-400  "
+          onClick={notify}
         />
       </form>
     </div>
