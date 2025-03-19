@@ -21,8 +21,8 @@ const Footer = () => {
               </a>
             </h1>
             <p className="">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Possimus, voluptate.{" "}
+              We build scalable, secure, and user-friendly software tailored to
+              your business needs.{" "}
             </p>
             <br />
             <div className="flex items-center gap-3">
@@ -61,12 +61,6 @@ const Footer = () => {
                 </h1>
                 <ul className="flex flex-col gap-3">
                   <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    <Link to={"/privacypolicy"}>Privacy Policy</Link>
-                  </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    <Link to={"/portfolio"}>Portfolio</Link>
-                  </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     <Link to={"/contactus"}>Contact Us</Link>
                   </li>
                 </ul>
@@ -85,13 +79,22 @@ const Footer = () => {
                     placeholder="Email"
                   />
                   <div className="mt-6 flex items-center gap-3">
-                    <a href="#" className="duration-200 hover:scale-105">
+                    <a
+                      href="https://www.instagram.com/engrabdulrehman4/"
+                      className="duration-200 hover:scale-105"
+                    >
                       <FaInstagram className="text-3xl" />
                     </a>
-                    <a href="#" className="duration-200 hover:scale-105">
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100000501580446"
+                      className="duration-200 hover:scale-105"
+                    >
                       <FaFacebook className="text-3xl" />
                     </a>
-                    <a href="#" className="duration-200 hover:scale-105">
+                    <a
+                      href="https://www.linkedin.com/in/abdul-rehman-b27a13241"
+                      className="duration-200 hover:scale-105"
+                    >
                       <FaLinkedin className="text-3xl" />
                     </a>
                   </div>

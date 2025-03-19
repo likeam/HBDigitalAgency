@@ -50,21 +50,14 @@ const Navbar = () => {
               <li>
                 <Link to={"/services"}>Services </Link>
               </li>
-              <li>
-                <Link to={"/portfolio"}>Portfolio</Link>
-              </li>
+
               <li className="">
                 <Link to={"/contactus"}>Contact Us</Link>
               </li>
               <li className="">
-                <Link to={"/faq"}>FAQ</Link>
+                <a href="https://newarportfolio.netlify.app/">Portfolio</a>
               </li>
-              <li className="">
-                <Link to={"/testimonials"}>Testimonials</Link>
-              </li>
-              <li className="">
-                <Link to={"/careers"}>Careers</Link>
-              </li>
+
               <li className="">
                 <div className="flex items-center gap-4">
                   <div className="">
@@ -134,41 +127,40 @@ const Navbar = () => {
           transition-all duration-500 pt-24 pb-6 px-8 flex flex-col justify-between `}
       >
         <div className="">
-          <div className=" flex items-center justify-start gap-3">
-            <FaUserCircle size={50} />
-            <div className="">
-              <h1 className="">Abdul Rehman</h1>
-              <h1 className="text-sm text-slate-800">Premium user</h1>
-            </div>
-          </div>
           <nav className=" mt-12">
             <ul className=" space-y-4 text-xl">
               <li className="">
-                <Link to={"/"}>Home</Link>
+                <Link onClick={toggleMenu} to={"/"}>
+                  Home
+                </Link>
               </li>
               <li className="">
-                <Link to={"/services"}>Services</Link>
+                <Link onClick={toggleMenu} to={"/services"}>
+                  Services
+                </Link>
               </li>
               <li className="">
-                <Link to={"/aboutus"}>About U</Link>
+                <Link onClick={toggleMenu} to={"/aboutus"}>
+                  About U
+                </Link>
               </li>
               <li>
-                <Link to={"/services"}>Services </Link>
-              </li>
-              <li>
-                <Link to={"/portfolio"}>Portfolio</Link>
-              </li>
-              <li className="">
-                <Link to={"/contactus"}>Contact Us</Link>
+                <Link onClick={toggleMenu} to={"/services"}>
+                  Services{" "}
+                </Link>
               </li>
               <li className="">
-                <Link to={"/faq"}>FAQ</Link>
+                <Link onClick={toggleMenu} to={"/contactus"}>
+                  Contact Us
+                </Link>
               </li>
               <li className="">
-                <Link to={"/testimonials"}>Testimonials</Link>
-              </li>
-              <li className="">
-                <Link to={"/careers"}>Careers</Link>
+                <a
+                  onClick={toggleMenu}
+                  href="https://newarportfolio.netlify.app/"
+                >
+                  Portfolio
+                </a>
               </li>
             </ul>
           </nav>

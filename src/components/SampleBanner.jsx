@@ -29,12 +29,13 @@ const SampleBanner = () => {
                 Market your next project with IMBED
               </h1>
               <p className="">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quibusdam asperiores tempora omnis temporibus, esse, doloremque
-                laborum totam, veniam commodi sapiente perferendis impedit quam!
-                Est veritatis tempore nemo accusamus numquam tempora.
+                We design, develop, and deploy custom software and web
+                applications that drive growth, efficiency, and success for
+                businesses of all sizes
               </p>
-              <Link to={"/message"} className="btn-primary">Get Started</Link>
+              <Link to={"/contactus"} className="btn-primary">
+                Get Started
+              </Link>
             </div>
           </div>
         </div>

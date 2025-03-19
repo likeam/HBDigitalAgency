@@ -16,8 +16,8 @@ const Overview = () => {
             className=" text-sm font-bold text-black/80 dark:text-white sm:text-lg
           md:text-3xl"
           >
-            <CountUp end={234} suffix="+" duration={275} />
-            199
+            <CountUp end={32} suffix="+" duration={275} />
+            32
           </h1>
           <p>clients</p>
         </div>
@@ -26,10 +26,10 @@ const Overview = () => {
             className=" text-sm font-bold text-black/80 dark:text-white sm:text-lg
           md:text-3xl"
           >
-            <CountUp end={234} suffix="+" duration={275} />
-            199
+            <CountUp end={54} suffix="+" duration={275} />
+            54+
           </h1>
-          <p>clients</p>
+          <p>Prpjects</p>
         </div>
         <div className=" flex flex-col items-center justify-center  bg-white  dark:bg-gray-800">
           <h1
@@ -37,19 +37,18 @@ const Overview = () => {
           md:text-3xl"
           >
             <CountUp end={234} suffix="+" duration={275} />
-            199
+            234
           </h1>
-          <p>clients</p>
+          <p>Followers</p>
         </div>
         <div className=" flex flex-col items-center justify-center  bg-white  dark:bg-gray-800">
           <h1
             className=" text-sm font-bold text-black/80 dark:text-white sm:text-lg
           md:text-3xl"
           >
-            <CountUp end={234} suffix="+" duration={275} />
-            199
+            <CountUp end={8} suffix="+" duration={275} />8
           </h1>
-          <p>clients</p>
+          <p>Mantinaces</p>
         </div>
       </div>
     </section>

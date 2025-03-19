@@ -23,9 +23,9 @@ const Hero = () => {
               businesses of all sizes
             </p>
             <div className=" space-x-4">
-              
-                <Link to={"/message"} className="btn-primary ">Get Started</Link>
-              
+              <Link to={"/contactus"} className="btn-primary ">
+                Get Started
+              </Link>
             </div>
           </div>
           <div

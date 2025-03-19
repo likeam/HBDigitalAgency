@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import Overview from "../components/Overview";
 import BannerDetails from "../components/BannerDetails";
 import SampleBanner from "../components/SampleBanner";
-import Blogs from "../components/Blogs";
+
 import Blog1 from "../assets/blog2.jpg";
 import Blog2 from "../assets/blog3.jpg";
 
@@ -42,7 +42,7 @@ const Home = () => {
         L6={"Maintenance & Support"}
       />
       <SampleBanner />
-      <Blogs />
+      {/* <Blogs /> */}
     </>
   );
 };

@@ -41,7 +41,9 @@ const BannerDetails = ({
                 <li className=" font-medium">{L6}</li>
               </ul>
             </div>
-            <Link to={"/message"}  className="btn-primary">Get Started</Link>
+            <Link to={"/contactus"} className="btn-primary">
+              Get Started
+            </Link>
           </div>
           {/* Image Container  */}
           <div
