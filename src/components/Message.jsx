@@ -57,7 +57,11 @@ const Message = () => {
           placeholder="Enter Your Message"
           className=" mt-1 w-64 px-3 py-2  bg-white border border-slate-300 rounded-md shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
         />
-        <input type="submit" value="Send" className="btn-primary mt-4 flex  " />
+        <input
+          type="submit"
+          value="Send"
+          className="btn-primary mt-4 flex cursor-pointer hover:bg-indigo-400  "
+        />
       </form>
     </div>
   );
