@@ -13,7 +13,7 @@ const SampleBanner = () => {
             <div className="px-2">
               <iframe
                 className=" aspect-video w-full"
-                src="https://youtu.be/8oON21G1Bqg?si=65h395t0NFxEDT_c"
+                src="https://youtube.com/embed/8oON21G1Bqg?si=65h395t0NFxEDT_c"
                 title="YouTube video player"
                 frameBorder="0"
                 allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
