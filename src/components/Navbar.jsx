@@ -162,6 +162,22 @@ const Navbar = () => {
                   Portfolio
                 </a>
               </li>
+              <li className="">
+                <div className="flex items-center gap-4">
+                  <div className="">
+                    <BiPhoneCall className=" text-2xl h-[40px] w-[40px] rounded-md p-2 bg-primary hover:bg-primary/90  " />
+                  </div>
+                  <div className="">
+                    <p className="">Call us on</p>
+                    <p className="">
+                      <a href="tel:+923006464645" className="">
+                        {" "}
+                        +923006464645
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </li>
             </ul>
           </nav>
         </div>

@@ -19,7 +19,7 @@ const Overview = () => {
             <CountUp end={32} suffix="+" duration={275} />
             32
           </h1>
-          <p>clients</p>
+          <p>Clients</p>
         </div>
         <div className=" flex flex-col items-center justify-center  bg-white  dark:bg-gray-800">
           <h1
@@ -29,7 +29,7 @@ const Overview = () => {
             <CountUp end={54} suffix="+" duration={275} />
             54+
           </h1>
-          <p>Prpjects</p>
+          <p>Projects</p>
         </div>
         <div className=" flex flex-col items-center justify-center  bg-white  dark:bg-gray-800">
           <h1
