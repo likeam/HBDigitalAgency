@@ -77,7 +77,7 @@ const Footer = () => {
                 <div className="flex flex-col gap-3">
                   <h1>Subscribe to our newsletter</h1>
                   <input
-                    className="rounded-full px-3 py-1 text-black focus:border-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500 "
+                    className="rounded-full px-3 py-1 text-gray-900 focus:border-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500 dark:text-gray-200 "
                     type="text"
                     placeholder="Email"
                   />

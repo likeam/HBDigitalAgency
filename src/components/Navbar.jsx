@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BiPhoneCall, BiSolidMoon, BiSolidSun } from "react-icons/bi";
 import { FaCaretDown, FaUserCircle } from "react-icons/fa";
-import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
+import { HiMenuAlt1, HiMenuAlt3, HiX } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -103,7 +103,7 @@ const Navbar = () => {
               />
             )}
             {showMenu ? (
-              <HiMenuAlt1
+              <HiX
                 onClick={toggleMenu}
                 className=" cursor-pointer transition-all dark:text-gray-200"
                 size={30}
@@ -123,38 +123,38 @@ const Navbar = () => {
       <div
         className={`${
           showMenu ? " left-0" : "-left-[100%]"
-        } h-screen w-[75%] bg-stone-500 fixed top-0 z-50
+        } h-screen w-[80%] bg-slate-100 dark:bg-slate-800 fixed top-0 z-50
           transition-all duration-500 pt-24 pb-6 px-8 flex flex-col justify-between `}
       >
         <div className="">
           <nav className=" mt-12">
             <ul className=" space-y-4 text-xl">
-              <li className="">
+              <li className="dark:text-gray-200">
                 <Link onClick={toggleMenu} to={"/"}>
                   Home
                 </Link>
               </li>
-              <li className="">
+              <li className="dark:text-gray-200">
                 <Link onClick={toggleMenu} to={"/services"}>
                   Services
                 </Link>
               </li>
-              <li className="">
+              <li className="dark:text-gray-200">
                 <Link onClick={toggleMenu} to={"/aboutus"}>
                   About U
                 </Link>
               </li>
-              <li>
+              <li className="dark:text-gray-200">
                 <Link onClick={toggleMenu} to={"/services"}>
                   Services{" "}
                 </Link>
               </li>
-              <li className="">
+              <li className="dark:text-gray-200">
                 <Link onClick={toggleMenu} to={"/contactus"}>
                   Contact Us
                 </Link>
               </li>
-              <li className="">
+              <li className="dark:text-gray-200">
                 <a
                   onClick={toggleMenu}
                   href="https://newarportfolio.netlify.app/"
@@ -162,7 +162,7 @@ const Navbar = () => {
                   Portfolio
                 </a>
               </li>
-              <li className="">
+              <li className="dark:text-gray-200">
                 <div className="flex items-center gap-4">
                   <div className="">
                     <BiPhoneCall className=" text-2xl h-[40px] w-[40px] rounded-md p-2 bg-primary hover:bg-primary/90  " />
@@ -182,7 +182,7 @@ const Navbar = () => {
           </nav>
         </div>
         <div className="footer">
-          <h1 className="">@2025 All Rights Reserved</h1>
+          <h1 className="dark:text-gray-200">@2025 All Rights Reserved</h1>
         </div>
       </div>
     </>
