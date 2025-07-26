@@ -16,8 +16,10 @@ const Footer = () => {
           <div className=" px-4 py-8 ">
             <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-3xl">
               <a href="/#home" className="">
-                IMBED
-                <span className="inline-block font-bold text-primary">WEB</span>
+                HB
+                <span className="inline-block font-bold text-primary">
+                  Digital
+                </span>
               </a>
             </h1>
             <p className="">
