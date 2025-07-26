@@ -31,9 +31,9 @@ const Navbar = () => {
           {/* LOGO  */}
           <div className=" text-2xl md:text-3xl dark:text-gray-200">
             <a href="#" className="">
-              IMBED{" "}
+              HB{" "}
               <span className=" inline-block font-bold text-blue-500">
-                Tech
+                Digital
               </span>{" "}
             </a>
           </div>
