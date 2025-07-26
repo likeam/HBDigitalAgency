@@ -1,6 +1,7 @@
 import React from "react";
 import {
   FaFacebook,
+  FaGithub,
   FaInstagram,
   FaLinkedin,
   FaLocationArrow,
@@ -85,16 +86,10 @@ const Footer = () => {
                   />
                   <div className="mt-6 flex items-center gap-3">
                     <a
-                      href="https://www.instagram.com/engrabdulrehman4/"
+                      href="https://github.com/likeam"
                       className="duration-200 hover:scale-105"
                     >
-                      <FaInstagram className="text-3xl" />
-                    </a>
-                    <a
-                      href="https://www.facebook.com/profile.php?id=100000501580446"
-                      className="duration-200 hover:scale-105"
-                    >
-                      <FaFacebook className="text-3xl" />
+                      <FaGithub className="text-3xl" />
                     </a>
                     <a
                       href="https://www.linkedin.com/in/abdul-rehman-b27a13241"
