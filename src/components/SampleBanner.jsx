@@ -26,7 +26,7 @@ const SampleBanner = () => {
           md:col-span-2 md:items-start md:text-left"
             >
               <h1 className=" text-3xl font-bold">
-                Market your next project with IMBED
+                Market your next project with HB Digital
               </h1>
               <p className="">
                 We design, develop, and deploy custom software and web
