@@ -118,12 +118,10 @@ const Navbar = () => {
           </div>
         </nav>
       </header>
-
-      {/* <ResponsiveMenu setShowMenu={showMenu} /> */}
       <div
         className={`${
           showMenu ? " left-0" : "-left-[100%]"
-        } h-screen w-[80%] bg-slate-100 dark:bg-slate-800 fixed top-0 z-50
+        } h-screen w-[90%] bg-slate-100 dark:bg-slate-800 fixed top-0 z-50
           transition-all duration-500 pt-24 pb-6 px-8 flex flex-col justify-between `}
       >
         <div className="">
